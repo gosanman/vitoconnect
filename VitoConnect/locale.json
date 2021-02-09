@@ -1,0 +1,12 @@
+{
+    "translations": {
+        "de": {
+            "Username": "Benutzername",
+            "Password": "Passwort",
+			"Entitie": "Entitie",
+            "Interval": "Intervall",
+            "Minutes": "Minuten",
+            "Update": "Aktualisieren"
+        }
+    }
+}

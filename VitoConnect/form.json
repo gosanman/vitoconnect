@@ -1,0 +1,13 @@
+{
+	"elements":
+	[
+		{ "name": "Username", "type": "ValidationTextBox", "caption": "Username" },
+		{ "name": "Password", "type": "PasswordTextBox", "caption": "Password" },
+		{ "name": "Entity", "type": "NumberSpinner", "caption": "Entity" },
+		{ "type": "NumberSpinner", "name": "Interval", "caption": "Interval", "suffix": "Minutes" }
+	],
+	"actions":
+	[
+		{ "type": "Button", "label": "Update", "onClick": "echo VVC_Update($id);" }
+	]
+}
