@@ -1,5 +1,7 @@
 [![IP-Symcon is awesome!](https://img.shields.io/badge/IP--Symcon-5.0-blue.svg)](https://www.symcon.de)
 
+Das Modul wurde von `https://github.com/paresy/Viessmann` kopiert und für eigene Zwecke angepasst.
+
 Folgende Module beinhaltet das VitoConnect Repository:
 
 - __VitoConnectMulti__ ([Dokumentation](VitoConnectMulti/README.md))  
