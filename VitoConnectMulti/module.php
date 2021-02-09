@@ -19,7 +19,7 @@ if (defined('PHPUNIT_TESTSUITE')) {
     }
 }
 
-class VitoConnect extends IPSModule
+class VitoConnectMulti extends IPSModule
 {
     use Simulate;
     private $client_id = '79742319e39245de5f91d15ff4cac2a8';
