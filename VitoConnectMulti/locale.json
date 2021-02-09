@@ -3,7 +3,7 @@
         "de": {
             "Username": "Benutzername",
             "Password": "Passwort",
-			"Entitie": "Entitie",
+	    "Entity": "Entity",
             "Interval": "Intervall",
             "Minutes": "Minuten",
             "Update": "Aktualisieren"
