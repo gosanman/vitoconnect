@@ -43,7 +43,7 @@ class VitoConnect extends IPSModule
 
         $this->RegisterPropertyInteger('Interval', 15);
 
-		$this->RegisterPropertyInteger('Entity', 0);
+	$this->RegisterPropertyInteger('Entity', 0);
 
         $this->RegisterAttributeInteger('GatewayID', 0);
         $this->RegisterAttributeString('GatewaySerial', '');
@@ -62,15 +62,15 @@ class VitoConnect extends IPSModule
             //We do not need to do this if IP-Symcon is restarting. Those values only change if Username/Password changed
             if (IPS_GetKernelRunlevel() == KR_READY) {
                 $gateway = $this->FetchData($this->gateway_data_url);
-				$entity = $this->ReadPropertyInteger('Entity');
+		$entity = $this->ReadPropertyInteger('Entity');
 
                 $id = $gateway->entities[$entity]->properties->id;
                 $serial = $gateway->entities[$entity]->entities[0]->properties->serial;
-				$description = $gateway->entities[$entity]->properties->description;
+		$description = $gateway->entities[$entity]->properties->description;
 
                 $this->SendDebug('GatewayID', $id, 0);
                 $this->SendDebug('GatewaySerial', print_r($serial, true), 0);
-				$this->SendDebug('Entity', $description, 0);
+		$this->SendDebug('Entity', $description, 0);
 
                 $this->WriteAttributeInteger('GatewayID', $id);
                 $this->WriteAttributeString('GatewaySerial', $serial);
