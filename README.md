@@ -1,10 +1,8 @@
-# Viessmann for IP-Symcon
+[![IP-Symcon is awesome!](https://img.shields.io/badge/IP--Symcon-5.0-blue.svg)](https://www.symcon.de)
 
-[![IP-Symcon is awesome!](https://img.shields.io/badge/IP--Symcon-5.x-blue.svg)](https://www.symcon.de)
-[![Check Style](https://github.com/paresy/Viessmann/workflows/Check%20Style/badge.svg)](https://github.com/paresy/Viessmann/actions)
-[![Run Tests](https://github.com/paresy/Viessmann/workflows/Run%20Tests/badge.svg)](https://github.com/paresy/Viessmann/actions)
+Folgende Module beinhaltet das VitoConnect Repository:
 
-Folgende Module beinhaltet dieses Repository:
-
-- __VitoConnect__ ([Dokumentation](VitoConnect))  
-    Erlaubt das Abfragen/Ändern vieler Werte, die auch in der ViCare App verfügbar sind.
+- __VitoConnectMulti__ ([Dokumentation](VitoConnectMulti/README.md))  
+	Erlaubt das Abfragen/Ändern vieler Werte, die auch in der ViCare App verfügbar sind.
+    Zusätzlich kann angegeben werden welche Anlage ausgelesen werden soll.
+    Dies ist hilfreich sollten mehrere Anlagen in der ViCareApp hinterlegt sein.
