@@ -1,5 +1,9 @@
-# VitoConnect
+# VitoConnectMulti
+
+Das Modul wurde von `https://github.com/paresy/Viessmann` kopiert und für eigene Zwecke angepasst.
+
 Das Modul dient dazu die VitoConnect Cloud-API abzufragen und alle relevanten Informationen über das angeschlossene Viessmann Gerät darzustellen.
+
 
 ### Inhaltsverzeichnis
 
@@ -22,13 +26,13 @@ Das Modul dient dazu die VitoConnect Cloud-API abzufragen und alle relevanten In
 
 ### 3. Software-Installation
 
-* Über den Module Store das Modul Viessmann Vitoconnect installieren.
+* Über den Module Store das Modul Viessmann Vitoconnect installieren. -> aktuell nicht verfügbar
 * Alternativ über das Module Control folgende URL hinzufügen:  
-`https://github.com/paresy/Viessmann`  
+`https://github.com/gosanman/vitoconnect`  
 
 ### 4. Einrichten der Instanzen in IP-Symcon
 
-- Unter "Instanz hinzufügen" ist das 'VitoConnect'-Modul unter dem Hersteller 'Viessmann' aufgeführt.  
+- Unter "Instanz hinzufügen" ist das 'VitoConnectMulti'-Modul unter dem Hersteller 'Viessmann' aufgeführt.  
 
 __Konfigurationsseite__:
 
@@ -36,6 +40,7 @@ Name            | Beschreibung
 --------------- | ---------------------------------
 Username        | Benutzername, welcher auf in der ViCare App verwendet wird
 Passwort        | Passwort, welches auf in der ViCare App verwendet wird
+Entity          | ID der Anlage, welche ausgelesen werden soll
 Intervall       | Abfrageintervall in Minuten
 
 ### 5. Statusvariablen und Profile
