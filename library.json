@@ -1,12 +1,12 @@
 {
-	"id": "{54059EB2-5C68-4592-930F-F42262124B94}",
-	"author": "Michael Maroszek",
+	"id": "{7FC6DABA-97E1-2A14-6AB8-EFEC775E8052}",
+	"author": "sanman",
 	"name": "Viessmann",
-	"url": "http://www.maroszek.de/",
+	"url": "https://github.com/gosanman/vitoconnect/",
 	"compatibility": {
 		"version": "5.1"
 	},
-	"version": "1.6",
+	"version": "0.1",
 	"build": 0,
 	"date": 0
 }
