@@ -7,5 +7,6 @@
 	"parentRequirements": [],
 	"childRequirements": [],
 	"implemented": [],
-	"prefix": "VVCM"
+	"prefix": "VVCM",
+	"url": "https://github.com/gosanman/vitoconnect/tree/main/VitoConnectMulti"
 }
