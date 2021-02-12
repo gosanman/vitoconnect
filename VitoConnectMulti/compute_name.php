@@ -60,12 +60,12 @@ define('READABLE_IDS', [
     'ventilation.operating.programs.standby'              => 'Lüftung Standby (AUS)',
     'ventilation.schedule'                                => 'Lüftung Zeitprogramm',
     'ventilation'                                         => 'Betrieb Lüftung',
-	'heating.solar'										  => 'Solarkollektor Betrieb',
-	'heating.solar.power.cumulativeProduced'			  => 'Solarkollektor Gesamtertrag',
-	'heating.solar.power.production'					  => 'Solarkollektor Tagesertrag',
-	'heating.solar.sensors.temperature.collector'	      => 'Solarkollektor Temperatur',
-	'heating.solar.sensors.temperature.dhw'				  => 'Solarkollektor Temperatur Warmwasser',
-	'heating.solar.statistics'							  => 'Solarkollektor Betriebsstunden'
+    'heating.solar'					  => 'Solarkollektor Betrieb',
+    'heating.solar.power.cumulativeProduced'		  => 'Solarkollektor Gesamtertrag',
+    'heating.solar.power.production'			  => 'Solarkollektor Tagesertrag',
+    'heating.solar.sensors.temperature.collector'	  => 'Solarkollektor Temperatur',
+    'heating.solar.sensors.temperature.dhw'	          => 'Solarkollektor Temperatur Warmwasser',
+    'heating.solar.statistics'			    	  => 'Solarkollektor'
 
 ]);
 
