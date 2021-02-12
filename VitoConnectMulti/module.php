@@ -48,7 +48,7 @@ class VitoConnectMulti extends IPSModule
         $this->RegisterAttributeInteger('GatewayID', 0);
         $this->RegisterAttributeString('GatewaySerial', '');
 
-        $this->RegisterTimer('Update', 0, 'VVC_Update($_IPS[\'TARGET\']);');
+        $this->RegisterTimer('Update', 0, 'VVCM_Update($_IPS[\'TARGET\']);');
     }
 
     public function ApplyChanges()
