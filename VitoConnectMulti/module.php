@@ -7,7 +7,7 @@ include_once __DIR__ . '/compute_name.php';
 if (defined('PHPUNIT_TESTSUITE')) {
     trait Simulate
     {
-        public function DebugParseDeviceData($device)
+        public function DebugParseDeviceData(object $device)
         {
             $this->failOnUnexpected = true;
             return $this->ParseDeviceData($device);
@@ -372,7 +372,9 @@ class VitoConnectMulti extends IPSModule
                                 return 'Watt.3680';
                             case 'kilowatt':
                                 return 'Power';
-                            case 'seconds':
+                            case 'percent':
+                                return 'Valve.F';
+			    case 'seconds':
                                 return ''; //We currently  do not have a profile for seconds
                             default:
                                 if (isset($this->failOnUnexpected)) {
